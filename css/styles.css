@@ -33,11 +33,11 @@ img {
   padding: 20px 0;
   display: flex;
   box-shadow: 3px 5px 15px rgb(216, 216, 216);
-  transition: 0.5s all ease-in-out;
+  transition: 0.3s all ease-out;
 }
 
 .profiles:hover {
-  transform: scale(1.09);
+  transform: scale(1.04);
 }
 
 .profiles .profileInp {
