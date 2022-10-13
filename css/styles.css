@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  height: 100vh;
+  background: rgb(255, 255, 255);
+  position: relative;
+}
+
+.wrapped {
+  background: rgb(0, 38, 255);
+  width: 100%;
+}
+
+.wrapped h1 {
+  font-family: poppins;
+  font-size: 35px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+img {
+  width: 250px;
+}
+
+.profiles {
+  width: 1124px;
+  margin: 20px;
+  background: rgb(244, 250, 253);
+  padding: 20px 0;
+  display: flex;
+  box-shadow: 3px 5px 15px rgb(216, 216, 216);
+  transition: 0.5s all ease-in-out;
+}
+
+.profiles:hover {
+  transform: scale(1.09);
+}
+
+.profiles .profileInp {
+  font-family: sans-serif;
+}
+
+.profiles .profileInp h3 {
+  font-size: 25px;
+  letter-spacing: 0.2;
+  padding: 20px 0;
+}
+
+.profiles .profileInp label {
+  font-style: italic;
+  color: rgb(151, 146, 146);
+  font-size: tahoma;
+}
+
+.imgWrapper {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 100%;
+}
+
+.imgWrapper,
+.profileInp {
+  margin-left: 50px;
+}
+
+.wrapProfiles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
